@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reg_style.css">
+    <script src="validation.js"></script>
+    <title>Leading University</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+  <h1>Registration</h1>  
+  <form action="#" method="post" onsubmit="return formValidation()">
+      <table>
+          <tr>
+              <td><label for="fname">First Name:</label></td>
+              <td><input type="text" name="firstname" id="ifname">
+              <span id="efname"></span></td>
+          </tr>
+
+          <tr>
+          <td><label for="lname">Last Name:</label></td>
+          <td><input type="text" name="lastname" id="ilname">
+          <span id="elname"></span></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="text" name="email" id="iemail">
+            <span id="eemail"></span></td> 
+        </tr>
+
+        <tr>
+            <td><label for="mobile">Mobile:</label></td>
+            <td><input type="text" name="mob" id="imob">
+                <span id="emob"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="pass">Password:</label></td>
+            <td><input type="text" name="pass" id="ipass">
+                <span id="epass"></span>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td><label for="confirm-pass">Confirm Password:</label></td>
+            <td><input type="text" name="confirm-pass" id="iconfirm-pass">
+                <span id="econ-pass"></span>
+            </td> 
+        </tr>
+        
+
+        <tr>
+            <td><label for="Certificate">Certificate:</label></td> 
+            <td>
+                <input type="checkbox" name="check-certificate" id="pec" value="PEC">
+                <label>PEC</label>
+                <input type="checkbox" name="check-certificate" id="jsc" value="JSC">
+                <label>JSC</label>
+                <input type="checkbox" name="check-certificate" id="ssc" value="SSC">
+                <label>SSC</label>
+                <input type="checkbox" name="check-certificate" id="hsc" value="HSC">
+                <label>HSC</label>
+            </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>  
+                <td>
+                    <input type="radio" name="gender" value="male">
+                    <label>Male</label>  
+                    <input type="radio" name="gender" value="female">
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="others">
+                    <label>Other</label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="board">Board Name:</label></td> 
+                <td>
+                    <select name="board-name" id="iboard-name">
+                        <option value="">Choose a board</option>
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Sylhet">Dhaka</option>
+                        <option value="Sylhet">Barisal</option>
+                        <option value="Sylhet">Cumilla</option>
+                        <option value="Sylhet">Rajshahi</option>
+                        <option value="Sylhet">Chottogram</option>
+                        
+
+                    </select>
+                </td>   
+            </tr>
+            
+            <tr>
+                <td><label for="dob">DOB :</label></td>
+                <td>
+                    <input type="date" name="dob" id="idob">
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pic-up">Upload Photo:</label></td>
+                <td>
+                    <input type="file" name="pic-upload">
+                </td>
+            </tr>
+        
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="sub-btn" name="submit-button" value="Register">
+                </td>
+            </tr>
+        
+
+
+      </table>
+  </form>
+</body>
+</html>
