@@ -1,0 +1,38 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(img/Nature\ Grass.jpg);
+    background-size: cover;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    color: #ffffff;
+    background-color: rgb(206, 86, 86);
+    padding: 15px;
+}
+table{
+    margin:auto ;
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+
+}
+tr,td{
+    padding: 5px;
+}
+#sub-btn{
+    margin-left: 350px;
+    background-color: violet;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#sub-btn:hover{
+    cursor: pointer;
+    background-color: blue;
+}
